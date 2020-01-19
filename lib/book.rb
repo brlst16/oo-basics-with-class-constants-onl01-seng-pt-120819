@@ -14,10 +14,10 @@ class Book
     @genre = genre
     GENRES << genre   #connect class constant to the setter method by shoveling the method argument into the array
   end 
-  def brand=(brand)
-    @brand = brand
-    BRANDS << brand 
-  end 
+ # def brand=(brand)
+  #  @brand = brand
+   # BRANDS << brand 
+  #end 
 
   def turn_page
     puts "Flipping the page...wow, you read fast!"
