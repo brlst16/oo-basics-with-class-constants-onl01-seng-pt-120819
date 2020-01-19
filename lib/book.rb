@@ -5,7 +5,7 @@ class Book
   #add class constant in caps 
   #this class constant is an array 
   GENRES = []
-  BRANDS = []
+ #BRANDS = []
 
   def initialize(title)
     @title = title
