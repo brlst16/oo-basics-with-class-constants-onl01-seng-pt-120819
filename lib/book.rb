@@ -11,7 +11,7 @@ class Book
   end
   def genre=(genre)
     @genre = genre
-    GENRES << genre
+    GENRES << genre   #connect class constant to the setter method by shoveling the method argument into the array
   end 
 
   def turn_page
